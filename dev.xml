@@ -11,13 +11,16 @@
   <remote fetch="https://github.com/advancedtelematic" name="advancedtelematic"/>
   <remote fetch="https://github.com/meta-qt5" name="qt"/>
   <remote fetch="https://github.com/STMicroelectronics/" name="stm" />
+  <!--fork of FullMetalUpdate by lquinet -->
+  <remote fetch="https://github.com/lquinet" name="fmu_lquinet_fork"/>
 
   <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
   <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="advancedtelematic" revision="thud" name="meta-updater" path="sources/meta-updater"/>
   <project remote="witekio" revision="thud" name="meta-machinelearning" path="sources/meta-machinelearning"/>
   <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
-  <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
+  <!--fork of meta-fullmetalupdate-extra by lquinet -->
+  <project remote="fmu_lquinet_fork" revision="thud" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
 
   <project remote="qt" revision="thud" name="meta-qt5" path="sources/meta-qt5"/>
 
